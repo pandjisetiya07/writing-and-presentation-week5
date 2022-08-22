@@ -1,4 +1,6 @@
-# Resummary minggu ke 5
+__PANDJI SETIYA BUDHI ARTHA__ -- _Tugas writing minggu ke-Empat_
+
+-----------------------------------------------------------------------
 ## React JS
 ### Apa itu React JS?
 - React JS yaitu Framwoerk view library Javascript untuk membuat tampilan (user interface) pada website.
@@ -17,38 +19,38 @@ JSX adalah syntax extension for javascript. JSX dikembangkan untuk digunakan unt
 - setiap JSX hanya bisa memiliki 1 parent element. dan jika parent element lebih dari satu maka terjadi ERROR.
 dan gunakan tag element ``` <div> ``` / fragment <> sebagai parent dari element.
 - contoh 2 parent element:
-![](Screenshot%20(16).png)
+![](/Screenshot/Screenshot%20(16).png)
 - contoh ketika error
-![](Screenshot%20(17).png) 
+![](/Screenshot/Screenshot%20(17).png) 
 ### The Virtual Dom
 - Dengan DOM kita dapat berinteraksi seperti mengupdate data di web page.
 - virtual DOM adalah duplikasi dari real DOM yang sebenarnya.
-![](Screenshot%20(18).png)
+![](/Screenshot/Screenshot%20(18).png)
 ### Class dan ClassName
 - Pada JSX attribut class di tag element HTML harus menggunakan className.
 - contoh:
-![](Screenshot%20(20).png)
+![](/Screenshot/Screenshot%20(20).png)
 ### Curly Braces in JSX
 - Kita bisa menggunakan syntax Javascript di dalam element HTML dengan curly braces.
-![](Screenshot%20(21).png)
+![](/Screenshot/Screenshot%20(21).png)
 - *element dalam tag ``` <h1> ``` akan dianggap sebagai Javascript jika menggunakan curly braces. Dan tampilan yang akan di tampilkan angka 5*
 - *dan jika tidak menggunakan curly braces akan dianggap sebagai content HTML. maka tampilan yg ditampilkan 2+3*
 ### Variable pada JSX
 - Gunakan curly braces untuk akses variable pada JSX.
 - Seperti gambar di bawah ini:
-![](Screenshot%20(24).png)
+![](/Screenshot/Screenshot%20(24).png)
 ### Attribute pada JSX
 - Menggunakan curly brance untuk data attribute
-![](Screenshot%20(25).png)
+![](/Screenshot/Screenshot%20(25).png) <br>
 ### Event in JSX
 - Deklarasi event dengan curly brance pada JSX
-![](Screenshot%20(28).png)
+![](/Screenshot/Screenshot%20(28).png)
 ### Conditional in JSX
 - Salah satu contoh penggunaan conditional pada JSX.
-![](Screenshot%20(26).png)
+![](/Screenshot/Screenshot%20(26).png)
 ### .Map()
 - Untuk menampilkan data React juga memiliki beberapa cara:
-![](Screenshot%20(27).png)
+![](/Screenshot/Screenshot%20(27).png)
 - Hasil dari gambar diatas:
 ```
  1 
@@ -72,4 +74,3 @@ dan gunakan tag element ``` <div> ``` / fragment <> sebagai parent dari element.
 
 ![](Screenshot%20(30).png)
 - Jadi state adalah data Local. Props digunakan agar component memiliki data yang dinamis yang dikirim dari component lain.
-# Sekian dan Terimakasih 
